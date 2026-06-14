@@ -37,13 +37,13 @@ export default function WhyUs() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-14">
           <p className="text-[#2D6A4F] font-semibold text-sm uppercase tracking-widest mb-3">
-            The Save More Difference
+            The Elro-EE Difference
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-[#1B4332]">
             Why Homeowners Choose Us
           </h2>
           <p className="text-gray-600 mt-4 max-w-xl mx-auto">
-            We built Save More around one idea: selling your home should feel like a relief, not another burden.
+            We built Elro-EE Home Buyers around one idea: selling your home should feel like a relief, not another burden.
           </p>
         </div>
 

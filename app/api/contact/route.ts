@@ -11,13 +11,13 @@ export async function POST(req: NextRequest) {
   }
 
   const { error } = await resend.emails.send({
-    from: "Save More <leads@elro-eehomebuyers.com>",
+    from: "Elro-EE Home Buyers <leads@elro-eehomebuyers.com>",
     to: process.env.LEAD_EMAIL!,
     subject: `New Cash Offer Request — ${name}`,
     html: `
       <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
         <div style="background: #2D6A4F; padding: 24px; border-radius: 8px 8px 0 0;">
-          <h1 style="color: #FAF7F2; margin: 0; font-size: 22px;">New Lead — Save More</h1>
+          <h1 style="color: #FAF7F2; margin: 0; font-size: 22px;">New Lead — Elro-EE Home Buyers</h1>
         </div>
         <div style="background: #fff; padding: 24px; border: 1px solid #e5e7eb; border-top: none; border-radius: 0 0 8px 8px;">
           <table style="width: 100%; border-collapse: collapse;">
@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
             </p>
           </div>
         </div>
-        <p style="text-align: center; color: #9ca3af; font-size: 12px; margin-top: 16px;">Save More · San Antonio &amp; Greater Austin, TX</p>
+        <p style="text-align: center; color: #9ca3af; font-size: 12px; margin-top: 16px;">Elro-EE Home Buyers · San Antonio &amp; Greater Austin, TX</p>
       </div>
     `,
   });

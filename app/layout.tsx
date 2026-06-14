@@ -8,9 +8,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Save More | We Buy Houses in San Antonio & Austin",
+  title: "Elro-EE Home Buyers | We Buy Houses in San Antonio & Austin",
   description:
-    "Save More buys houses as-is in San Antonio and Greater Austin. Facing foreclosure, inheritance, job loss, health issues, or PCS? We make selling simple and fast.",
+    "Elro-EE Home Buyers buys houses as-is in San Antonio and Greater Austin. Facing foreclosure, inheritance, job loss, health issues, or PCS? We make selling simple and fast.",
 };
 
 export default function RootLayout({

@@ -22,7 +22,7 @@ export default function Hero() {
         </h1>
         <p className="text-lg md:text-xl text-[#b7d5c4] max-w-2xl mx-auto mb-10 leading-relaxed">
           Whether you&apos;re facing foreclosure, dealing with an inheritance, going through a
-          job loss, or relocating — Save More buys your house as-is, fast, with no fees and
+          job loss, or relocating — Elro-EE Home Buyers buys your house as-is, fast, with no fees and
           no hassle.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

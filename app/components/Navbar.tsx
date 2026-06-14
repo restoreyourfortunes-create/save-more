@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#2D6A4F] shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <a href="#" className="text-[#FAF7F2] text-2xl font-bold tracking-tight">
-          Save<span className="text-[#D4A853]">More</span>
+          Elro-EE<span className="text-[#D4A853]"> Home Buyers</span>
         </a>
 
         {/* Desktop nav */}
@@ -22,7 +22,7 @@ export default function Navbar() {
             How It Works
           </a>
           <a href="#why-us" className="text-[#FAF7F2] hover:text-[#D4A853] transition-colors text-sm font-medium">
-            Why Save More
+            Why Elro-EE
           </a>
           <a
             href={`tel:${PHONE.replace(/-/g, "")}`}
@@ -58,7 +58,7 @@ export default function Navbar() {
             How It Works
           </a>
           <a href="#why-us" onClick={() => setOpen(false)} className="text-[#FAF7F2] hover:text-[#D4A853] transition-colors text-sm font-medium">
-            Why Save More
+            Why Elro-EE
           </a>
           <a
             href={`tel:${PHONE.replace(/-/g, "")}`}

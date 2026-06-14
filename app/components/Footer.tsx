@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
           <div>
             <p className="text-[#FAF7F2] text-2xl font-bold mb-2">
-              Save<span className="text-[#D4A853]">More</span>
+              Elro-EE<span className="text-[#D4A853]"> Home Buyers</span>
             </p>
             <p className="text-sm max-w-xs leading-relaxed">
               We buy houses fast, as-is, for cash in San Antonio and the Greater Austin area.
@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-10 pt-6 text-sm text-center">
-          © {new Date().getFullYear()} Save More. All rights reserved. We buy houses in San Antonio, TX and surrounding areas.
+          © {new Date().getFullYear()} Elro-EE Home Buyers. All rights reserved. We buy houses in San Antonio, TX and surrounding areas.
         </div>
       </div>
     </footer>

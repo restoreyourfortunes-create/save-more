@@ -61,7 +61,7 @@ export default function Situations() {
             Whatever You&apos;re Going Through, We Can Help
           </h2>
           <p className="text-gray-600 mt-4 max-w-xl mx-auto">
-            There&apos;s no judgment here. Life is unpredictable. Save More exists to give homeowners
+            There&apos;s no judgment here. Life is unpredictable. Elro-EE Home Buyers exists to give homeowners
             a simple, respectful way out — no matter the reason.
           </p>
         </div>
