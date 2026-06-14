@@ -12,7 +12,8 @@ export default function Hero() {
     >
       {/* Dark overlay so text stays readable */}
       <div className="absolute inset-0 bg-[#1B4332]/20" />
-      <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
+      <div className="relative z-10 max-w-4xl mx-auto px-6 py-12 text-center rounded-3xl"
+        style={{ background: "rgba(27, 67, 50, 0.72)", backdropFilter: "blur(6px)" }}>
         <p className="text-[#D4A853] font-semibold text-sm uppercase tracking-widest mb-4">
           Greater San Antonio &amp; Greater Austin Area
         </p>
@@ -20,7 +21,7 @@ export default function Hero() {
           Life Happens.{" "}
           <span className="text-[#D4A853]">We Make Selling Simple.</span>
         </h1>
-        <p className="text-lg md:text-xl text-[#b7d5c4] max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg md:text-xl text-[#d4ede2] max-w-2xl mx-auto mb-10 leading-relaxed">
           Whether you&apos;re facing foreclosure, dealing with an inheritance, going through a
           job loss, or relocating — Elro-EE Home Buyers buys your house as-is, fast, with no fees and
           no hassle.
