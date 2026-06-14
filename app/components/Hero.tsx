@@ -2,8 +2,17 @@ const PHONE = "210-378-0220";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#1B4332] via-[#2D6A4F] to-[#40916C] pt-20">
-      <div className="max-w-4xl mx-auto px-4 text-center">
+    <section
+      className="min-h-screen flex items-center justify-center pt-20 relative"
+      style={{
+        backgroundImage: "url('/hero-bg.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      {/* Dark overlay so text stays readable */}
+      <div className="absolute inset-0 bg-[#1B4332]/70" />
+      <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
         <p className="text-[#D4A853] font-semibold text-sm uppercase tracking-widest mb-4">
           San Antonio &amp; Greater Austin Area
         </p>
@@ -37,3 +46,4 @@ export default function Hero() {
     </section>
   );
 }
+
