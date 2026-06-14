@@ -11,10 +11,10 @@ export default function Hero() {
       }}
     >
       {/* Dark overlay so text stays readable */}
-      <div className="absolute inset-0 bg-[#1B4332]/70" />
+      <div className="absolute inset-0 bg-[#1B4332]/40" />
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
         <p className="text-[#D4A853] font-semibold text-sm uppercase tracking-widest mb-4">
-          San Antonio &amp; Greater Austin Area
+          Greater San Antonio &amp; Greater Austin Area
         </p>
         <h1 className="text-4xl md:text-6xl font-bold text-[#FAF7F2] leading-tight mb-6">
           Life Happens.{" "}
