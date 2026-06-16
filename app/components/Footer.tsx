@@ -30,7 +30,7 @@ export default function Footer() {
             <ul className="flex flex-col gap-2 text-sm">
               <li><a href="#situations" className="hover:text-[#D4A853] transition-colors">How We Help</a></li>
               <li><a href="#how-it-works" className="hover:text-[#D4A853] transition-colors">How It Works</a></li>
-              <li><a href="#why-us" className="hover:text-[#D4A853] transition-colors">Why Save More</a></li>
+              <li><a href="#why-us" className="hover:text-[#D4A853] transition-colors">Why Elro-EE</a></li>
               <li><a href="#contact" className="hover:text-[#D4A853] transition-colors">Get My Offer</a></li>
             </ul>
           </div>

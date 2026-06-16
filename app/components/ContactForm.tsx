@@ -173,7 +173,7 @@ export default function ContactForm() {
             </button>
 
             <p className="text-gray-500 text-xs text-center">
-              By submitting this form, you agree to be contacted by Save More. We respect your privacy and will never share your information.
+              By submitting this form, you agree to be contacted by Elro-EE Home Buyers. We respect your privacy and will never share your information.
             </p>
           </form>
         )}
