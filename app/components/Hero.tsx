@@ -16,7 +16,7 @@ export default function Hero() {
       />
 
       {/* Text block on solid green below the photo */}
-      <div className="bg-[#1B4332] py-12 px-4">
+      <div className="bg-[#1B4332] py-6 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-[#D4A853] font-semibold text-sm uppercase tracking-widest mb-4">
             Greater San Antonio &amp; Greater Austin Area
